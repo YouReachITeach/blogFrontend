@@ -1,10 +1,12 @@
 .topbar {
+  font-family: "Special Elite" ,'Montserrat', sans-serif;
   display: flex;
+  margin: 0px;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background: transparent;
   color: black;
-  padding: 0.75rem 1.5rem;
+  padding: 0.9rem 1.25rem;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -12,6 +14,7 @@
 }
 .nav-links a {
   color: black;
+  background: white;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 500;
@@ -37,9 +40,33 @@
 
 
 #logoBox{
-  font-family: "press start 2P" ,'Montserrat', sans-serif;
-  font-size: 30px;
+  font-family: "Rock 3D" ,'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  font-style: normal;
   cursor: pointer;
   color: black;
+  background: white;
   text-decoration: black;
+  padding : 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0px black;
+  transform: translate(-4px, -4px);
+}
+#logoBox:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 0px black;
+  transform: translate(0px, 0px);
+}
+#leftLogoPart{
+  margin-right: 12px;
+}
+#spinningRecord {
+  margin: 0px;
+  padding: 0px;
+  display: block;
 }
