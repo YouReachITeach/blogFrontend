@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
 import {Navbar} from './navbar/navbar';
+import {filter} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,15 @@ import {Navbar} from './navbar/navbar';
 })
 export class App {
   protected readonly title = signal('AtomicPunc');
+  constructor(private router: Router) {}
+
+  ngOnInit() {
+    this.router.events
+      .pipe(filter(event => event instanceof NavigationEnd))
+      .subscribe((event: NavigationEnd) => {
+        if (event.urlAfterRedirects === '/home') {
+          window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+      });
+  }
 }

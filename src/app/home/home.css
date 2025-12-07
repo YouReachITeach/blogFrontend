@@ -1,0 +1,27 @@
+#landingPage{
+  background-color: #ff2b00;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+#landingText{
+  font-family: "Fugaz One",'Montserrat', sans-serif;
+  text-align: left;
+  width: 100%;
+  padding-left: 1%;
+  margin-bottom: 3em;
+}
+
+.line {
+  font-weight: 1000;
+  line-height: 0.9;
+  font-size: clamp(3.5rem, 13.5vw, 14rem);
+  white-space: nowrap;
+}
+#firstRecordArticle{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}

@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "Cormorant Garamond" ,'Montserrat', sans-serif;
 }
 .blog{
   font-family: "Cormorant Garamond" ,'Montserrat', sans-serif;
@@ -13,5 +14,8 @@ html, body {
   padding: 0 1rem;
   text-align: justify;
   hyphens: auto;
+}
+.page{
+  margin-top: 8em;
 }
 
