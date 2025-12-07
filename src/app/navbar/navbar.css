@@ -1,0 +1,45 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-size: larger;
+}
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 0px black;
+  transform: translate(-6px, -6px);
+}
+.nav-links a:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px black;
+  transform: translate(0px, 0px);
+}
+.nav-links a.active {
+  box-shadow: 0px 0px 0px black;
+  transform: translate(0px, 0px);
+}
+
+
+#logoBox{
+  font-family: "press start 2P" ,'Montserrat', sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  text-decoration: black;
+}
