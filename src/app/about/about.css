@@ -1,4 +1,9 @@
 #aboutTitle{
+  margin-top: 4em;
+  margin-bottom: 1.7em;
   text-align: center;
   font-size: 3em;
+}
+#aboutGefasel{
+  margin-bottom: 4em;
 }
