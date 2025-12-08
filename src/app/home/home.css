@@ -18,7 +18,7 @@
 .line {
   font-weight: 1000;
   line-height: 0.9;
-  font-size: clamp(3.5rem, 13.5vw, 14rem);
+  font-size: clamp(3.5rem, 13vw, 13rem);
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
