@@ -1,3 +1,9 @@
+#albumCover{
+  border-radius: 20px;
+  margin-bottom: 1em;
+  width: 400px;
+  height: 400px;
+}
 #albumInfo{
   margin-top: 10em;
   text-align: center;
