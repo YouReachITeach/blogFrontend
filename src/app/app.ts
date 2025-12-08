@@ -11,15 +11,6 @@ import {filter} from 'rxjs';
 })
 export class App {
   protected readonly title = signal('AtomicPunc');
-  constructor(private router: Router) {}
 
-  ngOnInit() {
-    this.router.events
-      .pipe(filter(event => event instanceof NavigationEnd))
-      .subscribe((event: NavigationEnd) => {
-        if (event.urlAfterRedirects === '/home') {
-          window.scrollTo({ top: 0, behavior: 'auto' });
-        }
-      });
-  }
+
 }
