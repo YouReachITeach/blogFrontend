@@ -11,8 +11,9 @@
   font-family: "Fugaz One",'Montserrat', sans-serif;
   text-align: left;
   width: 100%;
-  padding-left: 1%;
   margin-bottom: 1em;
+  padding-inline: clamp(16px, 3vw, 64px);
+  padding-left: 2em;
 }
 
 .line {
