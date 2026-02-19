@@ -23,7 +23,68 @@
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
-#firstRecordArticle{
-  margin-top: 4em;
-  margin-bottom: 4em;
+.homeArticle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 5.25rem;
+  line-height: 1.6;
+  max-width: 60ch;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 0 1rem;
+  text-align: justify;
+  hyphens: auto;
+  border: 3px solid #000000;
+  border-right: none;
+  border-left: none;
 }
+#openerTitle{
+  font-family: 'Nabla', sans-serif;
+}
+#openerText{
+  border-top: 10px solid #000000;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  background-color: #FFBDCA;
+  color: #000000
+}
+.quad{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-height: 70vh;
+  padding: 4rem;
+  gap: 5rem;
+}
+#landingLeftRow1{
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#rambo{
+  height: 700px;
+  margin-bottom: 3rem;
+}
+#vincent{
+  height: 600px;
+  align-self: end;
+  justify-self: start;
+}
+#landingRightRow1{
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
